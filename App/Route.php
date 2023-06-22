@@ -1,6 +1,6 @@
 <?php 
 
-namespace AUDD\app;
+namespace AUDD\App;
 class Route{
    function hook()
    {

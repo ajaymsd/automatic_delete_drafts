@@ -28,8 +28,8 @@ if(file_exists(AUDD_PLUGIN_PATH .'/vendor/autoload.php')){
     wp_die('Error While Autoloading');
 }
 
-if(class_exists('AUDD\app\Route')){
-    $route=new AUDD\app\Route();
+if(class_exists('AUDD\App\Route')){
+    $route=new AUDD\App\Route();
     $route->hook();
 }else{
     wp_die('Route Not Loaded');

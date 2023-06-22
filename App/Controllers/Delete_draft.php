@@ -1,6 +1,6 @@
 <?php
  
- namespace AUDD\app\Controllers;
+ namespace AUDD\App\Controllers;
 
  class DeleteDraft 
  {
